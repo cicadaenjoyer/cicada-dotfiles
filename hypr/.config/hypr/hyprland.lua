@@ -13,7 +13,7 @@ require("config.autostart")
 require("config.colors")
 require("config.decorations")
 require("config.variables")
-require("config.hosts." .. hostname) -- monitors + MONITOR vars
+require("config.monitors." .. hostname)
 require("config.environment")
 require("config.inputs")
 require("config.binds")
