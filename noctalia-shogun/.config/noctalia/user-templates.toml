@@ -1,0 +1,6 @@
+[theme.templates.user.sddm-noctalia]
+input_path = "/usr/share/sddm/themes/sddm-noctalia/template.conf"
+output_path = "/usr/share/sddm/themes/sddm-noctalia/theme.conf"
+
+[hooks]
+wallpaper_changed = "w=\"$(noctalia msg wallpaper-get)\"; cp -f \"$w\" /usr/share/sddm/themes/sddm-noctalia/Assets/wallpaper; cp -f \"$w\" /usr/share/sddm/themes/BlueArchive-SDDM-theme/assets/background.png"
