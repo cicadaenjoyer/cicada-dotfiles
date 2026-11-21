@@ -8,9 +8,3 @@
 -- hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia") -- force GBM as a backend
 -- hl.env("LIBVA_DRIVER_NAME", "nvidia") -- Hardware acceleration on NVIDIA GPUs
 -- hl.env("__GL_GSYNC_ALLOWED", "1") -- Controls if G-Sync capable monitors should use Variable Refresh Rate (VRR)
-
--- Blue Archive cursor (Millennium Edition)
-hl.env("HYPRCURSOR_THEME", "BlueArchive-Millennium-Hyprcursor")
-hl.env("HYPRCURSOR_SIZE", "32")
-hl.env("XCURSOR_THEME", "BlueArchive-Millennium-Xcursor")
-hl.env("XCURSOR_SIZE", "32")
