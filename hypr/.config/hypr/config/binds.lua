@@ -129,8 +129,6 @@ hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd(noctCall .. "screenshot-fullscree
 
 -- Theming and Wallpaper
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(noctCall .. "panel-toggle wallpaper"))
-hl.bind(mainMod .. " + SHIFT + B", hl.dsp.exec_cmd("sh -c '~/.local/bin/ba-lobby next'")) -- next Blue Archive lobby
-hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("sh -c '~/.local/bin/ba-lobby track'")) -- toggle lobby mouse tracking
 
 -- Clipboard
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd(noctCall .. "panel-toggle clipboard"))
