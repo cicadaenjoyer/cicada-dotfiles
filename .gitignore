@@ -1,2 +1,4 @@
 *.bak
 *.bak-*
+fish_variables
+kitty/.config/kitty/themes/
