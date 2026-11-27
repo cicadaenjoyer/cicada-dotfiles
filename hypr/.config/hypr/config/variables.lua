@@ -10,3 +10,4 @@ MUSIC	     = "spotify"
 
 -- Workspaces
 NUM_WPM = 3 -- Number of workspaces per monitor (Max 10)
+GAMING_WORKSPACE_ENABLED = true
